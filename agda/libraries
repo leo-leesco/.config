@@ -1,0 +1,6 @@
+/usr/local/opt/agda/lib/agda/standard-library.agda-lib
+/usr/local/opt/agda/lib/agda/doc/standard-library-doc.agda-lib
+/usr/local/opt/agda/lib/agda/tests/standard-library-tests.agda-lib
+/usr/local/opt/agda/lib/agda/cubical/cubical.agda-lib
+/usr/local/opt/agda/lib/agda/categories/agda-categories.agda-lib
+/usr/local/opt/agda/lib/agda/agda2hs/agda2hs.agda-lib

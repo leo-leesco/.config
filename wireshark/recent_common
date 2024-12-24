@@ -1,0 +1,166 @@
+# Common recent settings file for Wireshark 4.2.5.
+#
+# This file is regenerated each time Wireshark is quit
+# and when changing configuration profile.
+# So be careful, if you want to make manual changes here.
+
+######## Recent capture files (latest last), cannot be altered through command line ########
+
+
+######## Recent capture filters (latest first), cannot be altered through command line ########
+
+recent.capture_filter: tcp
+recent.capture_filter: port 53
+recent.capture_filter: port 5555
+recent.capture_filter: ip
+recent.capture_filter: tcp port https
+recent.capture_filter: tcp port 80
+recent.capture_filter.en0: tcp
+recent.capture_filter.en0: port 53
+recent.capture_filter.en0: port 5555
+recent.capture_filter.en0: ip
+recent.capture_filter.en0: tcp port https
+recent.capture_filter.en0: tcp port 80
+
+######## Recent display filters (latest last), cannot be altered through command line ########
+
+recent.display_filter: ip.addr==127.0.0.1
+recent.display_filter: ip.addr==192.168.56.101
+recent.display_filter: tcp.port==1234 || udp.port==1234
+recent.display_filter: tcp.port==1234
+recent.display_filter: udp.port==5555 && ip.addr==127.0.0.1
+recent.display_filter: udp.port==5555
+recent.display_filter: http
+recent.display_filter: tcp
+recent.display_filter: ip
+recent.display_filter: udp.port==8000 && ip.addr==127.0.0.1
+
+# Main window geometry.
+# Decimal numbers.
+gui.geometry_main_x: 234
+gui.geometry_main_y: 2185
+gui.geometry_main_width: 1440
+gui.geometry_main_height: 770
+
+# Main window maximized.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_main_maximized: TRUE
+
+# Leftalign Action Buttons.
+# TRUE or FALSE (case-insensitive).
+gui.geometry_leftalign_actions: FALSE
+
+# Last used Configuration Profile.
+gui.last_used_profile: Default
+
+# WLAN statistics upper pane size.
+# Decimal number.
+gui.geometry_status_wlan_stats_pane: 200
+
+# Warn if running with elevated permissions (e.g. as root).
+# TRUE or FALSE (case-insensitive).
+privs.warn_if_elevated: TRUE
+
+# Warn if Wireshark is unable to capture.
+# TRUE or FALSE (case-insensitive).
+sys.warn_if_no_capture: TRUE
+
+# Find packet search in.
+# One of: PACKET_LIST, PACKET_DETAILS, PACKET_BYTES
+gui.search_in: PACKET_LIST
+
+# Find packet character set.
+# One of: NARROW_AND_WIDE, NARROW, WIDE
+gui.search_char_set: NARROW_AND_WIDE
+
+# Find packet case sensitive search.
+# TRUE or FALSE (case-insensitive).
+gui.search_case_sensitive: FALSE
+
+# Find packet search type.
+# One of: DISPLAY_FILTER, HEX_VALUE, STRING, REGEX
+gui.search_type: DISPLAY_FILTER
+
+# Geometry and maximized state of ManageInterfacesDialog window.
+# Decimal integers.
+gui.geom.ManageInterfacesDialog.x: 575
+gui.geom.ManageInterfacesDialog.y: 317
+gui.geom.ManageInterfacesDialog.width: 750
+gui.geom.ManageInterfacesDialog.height: 425
+# TRUE or FALSE (case-insensitive).
+gui.geom.ManageInterfacesDialog.maximized: FALSE
+
+# Geometry and maximized state of CompiledFilterOutput window.
+# Decimal integers.
+gui.geom.CompiledFilterOutput.x: -1021
+gui.geom.CompiledFilterOutput.y: 804
+gui.geom.CompiledFilterOutput.width: 654
+gui.geom.CompiledFilterOutput.height: 380
+# TRUE or FALSE (case-insensitive).
+gui.geom.CompiledFilterOutput.maximized: FALSE
+
+# Geometry and maximized state of FollowStreamDialog window.
+# Decimal integers.
+gui.geom.FollowStreamDialog.x: -1077
+gui.geom.FollowStreamDialog.y: 716
+gui.geom.FollowStreamDialog.width: 598
+gui.geom.FollowStreamDialog.height: 550
+# TRUE or FALSE (case-insensitive).
+gui.geom.FollowStreamDialog.maximized: FALSE
+
+# Geometry and maximized state of PreferencesDialog window.
+# Decimal integers.
+gui.geom.PreferencesDialog.x: 315
+gui.geom.PreferencesDialog.y: 2350
+gui.geom.PreferencesDialog.width: 1158
+gui.geom.PreferencesDialog.height: 554
+# TRUE or FALSE (case-insensitive).
+gui.geom.PreferencesDialog.maximized: FALSE
+
+# Geometry and maximized state of FilterDialog window.
+# Decimal integers.
+gui.geom.FilterDialog.x: 133
+gui.geom.FilterDialog.y: 278
+gui.geom.FilterDialog.width: 960
+gui.geom.FilterDialog.height: 564
+# TRUE or FALSE (case-insensitive).
+gui.geom.FilterDialog.maximized: FALSE
+
+# Geometry and maximized state of WlanStatisticsDialog window.
+# Decimal integers.
+gui.geom.WlanStatisticsDialog.x: 86
+gui.geom.WlanStatisticsDialog.y: 109
+gui.geom.WlanStatisticsDialog.width: 768
+gui.geom.WlanStatisticsDialog.height: 576
+# TRUE or FALSE (case-insensitive).
+gui.geom.WlanStatisticsDialog.maximized: FALSE
+
+# Geometry and maximized state of ExpertInfoDialog window.
+# Decimal integers.
+gui.geom.ExpertInfoDialog.x: 160
+gui.geom.ExpertInfoDialog.y: 25
+gui.geom.ExpertInfoDialog.width: 620
+gui.geom.ExpertInfoDialog.height: 768
+# TRUE or FALSE (case-insensitive).
+gui.geom.ExpertInfoDialog.maximized: FALSE
+
+# Geometry and maximized state of CaptureFilePropertiesDialog window.
+# Decimal integers.
+gui.geom.CaptureFilePropertiesDialog.x: 464
+gui.geom.CaptureFilePropertiesDialog.y: 2185
+gui.geom.CaptureFilePropertiesDialog.width: 960
+gui.geom.CaptureFilePropertiesDialog.height: 772
+# TRUE or FALSE (case-insensitive).
+gui.geom.CaptureFilePropertiesDialog.maximized: FALSE
+
+# Custom colors.
+# List of custom colors selected in Qt color picker.
+gui.custom_colors: 
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff",
+	"ffffffff", "ffffffff"
