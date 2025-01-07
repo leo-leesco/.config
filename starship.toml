@@ -1,0 +1,7 @@
+[shell]
+fish_indicator = '🐬'
+style = 'cyan bold'
+disabled = false
+
+[git_branch]
+ignore_branches = ['main', 'master']
