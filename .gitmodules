@@ -1,3 +1,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = git@github.com:leo-leesco/nvim.git
+[submodule "fish-lsp-language-clients"]
+	path = fish-lsp-language-clients
+	url = https://github.com/ndonfris/fish-lsp-language-clients.git
