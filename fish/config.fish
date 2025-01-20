@@ -1,4 +1,8 @@
-eval "$(/opt/homebrew/bin/brew shellenv)"
+if test -d /opt/homebrew/bin
+    eval (/opt/homebrew/bin/brew shellenv)
+else if test -d /usr/local/bin
+    eval (/usr/local/bin/brew shellenv)
+end
 
 set -x EDITOR 'nvim'
 set LESSPIPE (which src-hilite-lesspipe.sh)
@@ -13,6 +17,7 @@ set -x CLICOLOR 1
 #   - auto-completion for the opam binary
 # This section can be safely removed at any time if needed.
 test -r '~/.opam/opam-init/init.fish' && source '~/.opam/opam-init/init.fish' > /dev/null 2> /dev/null; or true
+eval (opam env)
 # END opam configuration
 
 if status is-interactive
