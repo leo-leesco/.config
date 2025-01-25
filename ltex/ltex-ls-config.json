@@ -1,0 +1,13 @@
+{
+  "languageTool": {
+    "languageModel": {
+      "ltex": {
+        "dictionary": {
+          "fr": [
+            "~/.config/ltex/universal_dictionary.txt"
+          ]
+        }
+      }
+    }
+  }
+}
