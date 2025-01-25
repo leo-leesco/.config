@@ -1,0 +1,4 @@
+noIndentBlock:
+  minted: 1
+  lstlisting: 1
+  verbatim: 1
