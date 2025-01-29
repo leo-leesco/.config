@@ -3,3 +3,4 @@ filezilla
 sourcery/auth.yaml
 xbuild
 yarn
+.DS_Store
