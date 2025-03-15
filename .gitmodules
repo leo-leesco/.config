@@ -1,3 +1,3 @@
 [submodule "nvim"]
-	path = nvim.bak
+	path = nvim
 	url = git@github.com:leo-leesco/nvim.git
