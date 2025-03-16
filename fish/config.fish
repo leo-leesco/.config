@@ -27,3 +27,4 @@ if status is-interactive
 end
 
 fish_add_path -ag ~/.bun/bin
+set -x XDG_CONFIG_HOME "$HOME/.config"
