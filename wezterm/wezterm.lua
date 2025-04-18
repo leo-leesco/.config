@@ -22,5 +22,6 @@ config.font = wezterm.font_with_fallback({
 	"Iosevka Term Extended",
 })
 config.font_size = 14
+config.use_dead_keys = false
 -- Returns our config to be evaluated. We must always do this at the bottom of this file
 return config
