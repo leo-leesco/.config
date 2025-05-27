@@ -8,7 +8,7 @@ local colorscheme = require("appearance")
 config.color_scheme_dirs = { os.getenv("HOME") .. "/.config/wezterm/colors" }
 wezterm.log_info(config.color_scheme_dirs)
 if colorscheme.is_light() then
-	config.color_scheme = "dawnfox"
+	config.color_scheme = "dayfox"
 else
 	config.color_scheme = "nightfox"
 end
