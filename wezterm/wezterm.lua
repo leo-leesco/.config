@@ -8,9 +8,9 @@ local appearance = require("appearance")
 
 -- Use it!
 if appearance.is_dark() then
-	config.color_scheme = "Dracula+"
+	config.color_scheme = "catppuccin-mocha"
 else
-	config.color_scheme = "Atelierdune (light) (terminal.sexy)"
+	config.color_scheme = "catppuccin-latte"
 end
 
 config.font = wezterm.font_with_fallback({
