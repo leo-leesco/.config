@@ -1,3 +1,5 @@
+command_timeout = 750
+
 [shell]
 fish_indicator = '🐬'
 style = 'cyan bold'
