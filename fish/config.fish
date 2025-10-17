@@ -31,3 +31,4 @@ fish_add_path -ag ~/.cargo/bin
 set -x XDG_CONFIG_HOME "$HOME/.config"
 set -x LIBRARY_PATH $LIBRARY_PATH /opt/homebrew/lib
 set -x INCLUDE_PATH $INCLUDE_PATH /opt/homebrew/include
+set -x C_INCLUDE_PATH $C_INCLUDE_PATH /opt/homebrew/include
