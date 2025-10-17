@@ -1,1 +1,2 @@
-*.vimsession
+.vimsession
+.DS_store
