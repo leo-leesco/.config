@@ -24,4 +24,6 @@ config.font = wezterm.font_with_fallback({
 })
 config.font_size = 14
 
+config.use_dead_keys = false
+
 return config
