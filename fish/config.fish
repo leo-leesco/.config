@@ -8,6 +8,7 @@ set -x EDITOR nvim
 set LESSPIPE (which src-hilite-lesspipe.sh)
 set -x LESSOPEN "| $LESSPIPE %s"
 set -x LESS ' -R '
+
 fish_vi_key_bindings
 
 set -x CLICOLOR 1
