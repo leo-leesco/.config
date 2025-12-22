@@ -22,6 +22,8 @@ test -r '~/.opam/opam-init/init.fish' && source '~/.opam/opam-init/init.fish' >/
 eval (opam env)
 # END opam configuration
 
+source "$HOME/.cargo/env.fish"
+
 if status is-interactive
     zoxide init --cmd cd fish | source
 
@@ -31,6 +33,7 @@ end
 fish_add_path -ag ~/.bun/bin
 fish_add_path -ag ~/.cargo/bin
 fish_add_path -ag ~/.elan/bin
+fish_add_path -ag ~/.local/bin
 set -x XDG_CONFIG_HOME "$HOME/.config"
 set -x LIBRARY_PATH $LIBRARY_PATH /opt/homebrew/lib
 set -x INCLUDE_PATH $INCLUDE_PATH /opt/homebrew/include
