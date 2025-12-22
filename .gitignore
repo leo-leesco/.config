@@ -4,3 +4,4 @@ sourcery/auth.yaml
 xbuild
 yarn
 .DS_Store
+composer/keys*
